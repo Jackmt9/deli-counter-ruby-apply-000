@@ -8,7 +8,7 @@ def line
     puts " empty."
     else
       katz_deli.each do |customer|
-      puts " #{katz_deli.find_index(customer) + 1)}" +
+      puts " #{katz_deli.find_index(customer) + 1}" +
       ". " + "#{customer}"
      end 
    end 

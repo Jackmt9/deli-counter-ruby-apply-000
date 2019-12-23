@@ -1,14 +1,15 @@
 require "pry"
 
 # Write your code here.
-$katz_deli = []
+$katz_deli = [Jack, Sean]
 def line
-  "The line is currently"
-  if katz_deli.length == 0
+  puts "The line is currently"
+    if katz_deli.length == 0
     puts " empty."
-  else katz_deli.each do |customer|
+    else
+      katz_deli.each do |customer|
       puts " #{katz_deli.find_index(customer) + 1)}" +
       ". " + "#{customer}"
-    end 
-  end 
+     end 
+   end 
 end 

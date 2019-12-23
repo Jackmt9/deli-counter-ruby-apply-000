@@ -6,5 +6,8 @@ def line
   else katz_deli.each do |customer|
       puts katz_deli[customer].index
       index = count + 1
-      puts " #{index}. #{katz_deli"
-      
+      puts "#{index}. #{katz_deli}"
+      binding.pry
+    end 
+  end 
+    

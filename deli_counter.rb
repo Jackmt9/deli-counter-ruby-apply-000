@@ -12,8 +12,7 @@ def line(katz_deli)
 end 
 
 def line_order(line_array)
-line_array.each do |customer|
-      "#{katz_deli.find_index(customer) + 1}
-      + ". " + "#{customer}"
+ line_array.each do |customer|
+      "#{katz_deli.find_index(customer) + 1}" + "#{customer}"
     end 
   end 

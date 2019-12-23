@@ -1,7 +1,7 @@
 require "pry"
 
 # Write your code here.
-$katz_deli = [Jack, Sean]
+$katz_deli = ["Jack", "Sean"]
 def line
   puts "The line is currently"
     if katz_deli.length == 0

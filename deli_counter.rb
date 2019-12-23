@@ -4,7 +4,7 @@ def line
   if katz_deli.length == 0
     puts "The line is currently empty"
   else katz_deli.each do |customer|
-      puts customer.index
+      puts katz_deli[customer].index
       index = count + 1
       puts " #{index}. #{katz_deli"
       

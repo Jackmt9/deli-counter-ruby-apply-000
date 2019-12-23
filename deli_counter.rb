@@ -2,7 +2,7 @@ require "pry"
 
 # Write your code here.
 $katz_deli = ["Jack", "Sean"]
-def line
+def line(katz_deli)
   puts "The line is currently"
     if katz_deli.length == 0
     puts " empty."
